@@ -5,7 +5,7 @@ work with ServiceNow: list, get, create and update records,
 upload attachments and send emails.
 
 ## Setup
-1. git clone https://github.com/YOURNAME/servicenow-mcp.git
+1. git clone https://github.com/ashusingh0909-png/servicenow-mcp.git
 2. python -m venv .venv
 3. .venv\Scripts\activate
 4. pip install -r requirements.txt
