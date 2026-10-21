@@ -14,16 +14,14 @@ upload attachments and send emails.
 ## Connect to Claude Desktop
 Add this to claude_desktop_config.json (use your own paths):
 
-(three backticks) json
 {
-  "mcpServers": {
-    "servicenow-mcp": {
-      "command": "C:\\path\\to\\.venv\\Scripts\\python.exe",
-      "args": ["C:\\path\\to\\server.py"]
+      "mcpServers": {
+        "servicenow-mcp": {
+          "command": "C:\\path\\to\\.venv\\Scripts\\python.exe",
+          "args": ["C:\\path\\to\\server.py"]
+        }
+      }
     }
-  }
-}
-(three backticks)
 
 ## Tools
 list_records, get_record, create_record, update_record,
