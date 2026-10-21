@@ -1,0 +1,5 @@
+mcp[cli]<2
+httpx
+openpyxl
+python-dotenv
+truststore
